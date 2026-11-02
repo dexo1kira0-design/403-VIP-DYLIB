@@ -1,0 +1,16 @@
+Package: com.flexnote
+Name: @inflexibleN1
+Description: 
+Section: Tweaks
+Depends: firmware (>= 11.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: @inflexibleN1
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+Architecture: iphoneos-arm64
+Version: 4.2.0
