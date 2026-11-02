@@ -1,0 +1,12 @@
+ARCHS = arm64
+TARGET = iphone:clang:latest:14.0
+
+include $(THEOS)/makefiles/common.mk
+
+LIBRARY_NAME = metalbiew
+
+metalbiew_FILES = metalbiew.mm FCUUID.m FTToastIndicator.m
+metalbiew_FRAMEWORKS = UIKit Foundation Metal MetalKit AVFoundation
+metalbiew_CFLAGS = -fobjc-arc -I.
+
+include $(THEOS_MAKE_PATH)/library.mk
